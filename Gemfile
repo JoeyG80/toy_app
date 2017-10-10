@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'bootstrap-sass', '3.3.7'
+gem 'sprockets', '3.7.1'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
